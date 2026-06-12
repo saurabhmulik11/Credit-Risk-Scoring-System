@@ -186,40 +186,6 @@ Special emphasis was placed on Recall because failing to identify high-risk borr
 * Git
 * GitHub
 
----
-
-## Project Structure
-
-```text
-credit-risk-scoring-system/
-│
-├── data/
-│   └── credit_data.csv
-│
-├── notebooks/
-│   └── EDA.ipynb
-│
-├── src/
-│   ├── preprocess.py
-│   ├── feature_engineering.py
-│   ├── train.py
-│   ├── evaluate.py
-│
-├── models/
-│   ├── xgboost_model.pkl
-│   └── scaler.pkl
-│
-├── app/
-│   ├── api.py
-│   └── streamlit_app.py
-│
-├── requirements.txt
-├── README.md
-└── .gitignore
-```
-
----
-
 ## Results
 
 * Successfully built an end-to-end credit risk prediction pipeline.
